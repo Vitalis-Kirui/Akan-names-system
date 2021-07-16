@@ -1,4 +1,5 @@
 body{
+    width: 100%;
     margin: 10px;
     background-image: url(./Assets/Images/IMG_20210525_001253.jpg);
     background-repeat: no-repeat;
@@ -47,3 +48,16 @@ h2{
 .culture{
     color: rgb(163, 43, 6);
 }
+
+/* forms code */
+
+button{
+    border-radius: 20px;
+    color: yellow;
+    background-color: blue;
+}
+
+.two{
+    background-color: rgb(209, 219, 217);
+}
+
