@@ -1,0 +1,27 @@
+body{
+    margin: 10px;
+    background-image: url(./Assets/Images/IMG_20210525_001253.jpg);
+    /* background-repeat: no-repeat; */
+}
+
+/* styles for fonts and headings */
+
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    color: rgb(172, 1, 1);
+    background-color: rgb(212, 221, 221);
+}
+
+h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 800;
+}
+
+.accordion-body{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+}
+
+/* styles for fonts and headings ends here */
