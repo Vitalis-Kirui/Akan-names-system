@@ -1,7 +1,8 @@
 body{
     margin: 10px;
     background-image: url(./Assets/Images/IMG_20210525_001253.jpg);
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* styles for fonts and headings */
