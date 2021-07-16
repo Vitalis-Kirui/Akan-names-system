@@ -17,6 +17,7 @@ h1{
 h2{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 800;
+    color: blue;
 }
 
 .tablehead{
@@ -25,7 +26,7 @@ h2{
 
 .accordion-body{
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 30px;
+    font-size: 26px;
 }
 
 /* styles for fonts and headings ends here */
@@ -36,4 +37,12 @@ h2{
     color:rgb(182, 16, 174);
     font-weight: 700;
 
+}
+
+/* end of table code */
+
+/* about akan names table */
+
+.culture{
+    color: rgb(163, 43, 6);
 }
