@@ -19,9 +19,16 @@ h2{
     font-weight: 800;
 }
 
+.tablehead{
+    color: red;
+}
+
 .accordion-body{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 30px;
 }
 
 /* styles for fonts and headings ends here */
+
+/* Table styles */
+
