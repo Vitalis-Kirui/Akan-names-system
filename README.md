@@ -35,6 +35,18 @@ A pc
 Text Editor- once you have clone.
 ## Known bugs
 There are no known bugs at the moment. If you experience any, please reach out.
+
+## Behaviour Driven Development
+| Behavior                | Input                | Output             |
+|-------------------------|----------------------|--------------------|
+|Day| <= 0 and > 31 | Enter valid day|
+|Month| <= 0 and > 12| Enter valid month|
+|Gender| male = checked| Male Akan name|
+|Gender| female = checked| Female Akan name|
+|Form| = ""| This field is recquired|
+|Year| .length < 4 and > 4| Enter a valid year|
+|Century| > 20| Enter valid Year|
+
 ## Technologies used
 * HTML
 * CSS
