@@ -43,13 +43,23 @@ var fetchData = function(){
     }
 
     // date of birth
-    if(DD < 1 || DD >31){
+    else if(DD < 1 || DD >31){
         alert("Enter valid date. It should range from 1 to 31.")
     }
 
     // month
-    if(MM < 1 || MM > 12){
+    else if(MM < 1 || MM > 12){
         alert("Enter a valid month. It should range from 1 to 12.")
+    }
+
+    // months with 30 days
+    else if(MM == 4 || MM == 6 || MM == 9 || MM == 11 && DD > 30){
+        alert("Please Enter a validate. "+ MM + "th month has NO MORE THAN 30 days!")
+    }
+
+    // Month of February
+    else if(MM == 2 && DD > 29){
+        alert("Enter a valid date! February has no more than 29 days.")
     }
 
 }
