@@ -84,7 +84,7 @@ var fetchData = function(){
 
     // Assigning names using if statement
 
-    // males
+    // Males
 
     if( birthDay == 0 && male == true){
         alert ("Hello "+name+", You were born on: "+daysArray[0]+", your Akan name is: "+malesArray[0]);
@@ -112,6 +112,36 @@ var fetchData = function(){
 
     else if( birthDay == 6 && male == true){
         alert ("Hello "+name+", You were born on: "+daysArray[6]+", your Akan name is: "+malesArray[6]);
+    }
+
+    // Females
+
+    if( birthDay == 0 && female == true){
+        alert ("Hello "+name+", You were born on: "+daysArray[0]+", your Akan name is: "+femaleArray[0]);
+    }
+
+    else if( birthDay == 1 && female == true){
+        alert ("Hello "+name+", You were born on: "+daysArray[1]+", your Akan name is: "+femaleArray[1]);
+    }
+
+    else if( birthDay == 2 && female == true){
+        alert ("Hello "+name+", You were born on: "+daysArray[2]+", your Akan name is: "+femaleArray[2]);
+    }
+
+    else if( birthDay == 3 && female == true){
+        alert ("Hello "+name+", You were born on: "+daysArray[3]+", your Akan name is: "+femaleArray[3]);
+    }
+
+    else if( birthDay == 4 && female == true){
+        alert ("Hello "+name+", You were born on: "+daysArray[4]+", your Akan name is: "+femaleArray[4]);
+    }
+
+    else if( birthDay == 5 && female == true){
+        alert ("Hello "+name+", You were born on: "+daysArray[5]+", your Akan name is: "+femaleArray[5]);
+    }
+
+    else if( birthDay == 6 && female == true){
+        alert ("Hello "+name+", You were born on: "+daysArray[6]+", your Akan name is: "+femaleArray[6]);
     }
 
 }
