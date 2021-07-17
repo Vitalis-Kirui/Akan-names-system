@@ -18,6 +18,7 @@
     <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
 
     <script src='Assets/JS/bootstrap.js'></script>
+    <script src='index.js'></script>
 </head>
 <body>
 
@@ -79,49 +80,53 @@
 
               <div class="container overflow-hidden">
                 <div class="row gx-5">
-                  <div class="col">
+                  <div class="col-md-8">
                    <div class="p-3 border bg-light">
 
                     <!-- form -->
 
-              <form action="" class="akansForm"> 
+                      <form action="" class="akansForm"> 
 
-                <p> <span class="culture"><em>Enter your details below</em></span> </p>
+                        <p> <span class="culture"><em>Enter your details below</em></span> </p>
 
-                  <strong>Name:</strong> <br> <input type="text" name="name" id="userName" value="" placeholder="Enter your Name here" required>
-                <br>           
-            
-                <strong>Date of Birth:</strong> <br> <input type="number" name="date" id="dateOnly" value="" placeholder="Enter Date e.g 14" required >
-                <br>
-            
-                <strong>Month:</strong> <br> <input type="number" name="month" id="monthOnly" value="" placeholder="Enter Month e.g 3" required>
-                <br>
+                          <strong>Name:</strong> <br> <input type="text" name="name" id="userName" value="" placeholder="Enter your Name here" required>
+                        <br>           
+                    
+                        <strong>Date of Birth:</strong> <br> <input type="number" name="date" id="dateOnly" value="" placeholder="Enter Date e.g 14" required >
+                        <br>
+                    
+                        <strong>Month:</strong> <br> <input type="number" name="month" id="monthOnly" value="" placeholder="Enter Month e.g 3" required>
+                        <br>
 
-                <strong>Century:</strong> <br> <input type="number" name="century" id="centuryOnly" value="" placeholder="Enter Century e.g 19" required>
-                <br>
+                        <strong>Century:</strong> <br> <input type="number" name="century" id="centuryOnly" value="" placeholder="Enter Century e.g 19" required>
+                        <br>
 
-                <strong>Year:</strong> <br> <input type="number" name="year" id="yearOnly" value="" placeholder="Enter year e.g 1998" required>
-                <br>
+                        <strong>Year:</strong> <br> <input type="number" name="year" id="yearOnly" value="" placeholder="Enter year e.g 1998" required>
+                        <br>
 
-                <span class="culture"><em>Select your gender.</em></span>
-                <br>
+                        <span class="culture"><em>Select your gender.</em></span>
+                        <br>
 
-                <input type="radio" name="gender" value="male" > <strong>Male</strong>
-                <br>
+                        <input type="radio" name="gender" value="male" > <strong>Male</strong>
+                        <br>
 
-                <input type="radio" name="gender" value="female"> <strong>Female</strong>
-                <br>
-            
-                <!-- <input type="submit" name="submit" value="Submit" required> -->
+                        <input type="radio" name="gender" value="female"> <strong>Female</strong>
+                        <br>
+                    
+                        <!-- <input type="submit" name="submit" value="Submit" required> -->
 
-                <button><strong>Submit</strong></button>
-            
-            </form>
+                        <button onclick="fetchData()"><strong>Submit</strong></button>
+                    
+                    </form>
 
                    </div>
                   </div>
                   <div class="col">
-                    <div class="p-3 border bg-light">Generated Akan names will be displayed here.</div>
+                    <div class="p-3 border bg-light">
+
+                      Name: 
+                      
+                    </div>
                   </div>
                 </div>
               </div>

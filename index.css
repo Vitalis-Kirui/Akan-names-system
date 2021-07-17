@@ -1,5 +1,8 @@
-body{
+html{
     width: 100%;
+}
+body{
+    /* width: 100%; */
     margin: 10px;
     background-image: url(./Assets/Images/IMG_20210525_001253.jpg);
     background-repeat: no-repeat;
