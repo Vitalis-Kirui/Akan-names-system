@@ -71,4 +71,13 @@ var fetchData = function(){
         alert("Jesus Christ!!! Enter a valid year! We are still in 20s.")
     }
 
+
+    // Arrays
+
+    var daysArray = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+
+    var malesArray = ['Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi', 'Kwame'];
+
+    var femaleArray = ['Akosua', 'Adwoa', 'Abena', 'Akua', 'Yaa', 'Afua', 'Ama'];
+
 }
