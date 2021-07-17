@@ -20,7 +20,7 @@ This is the section with brief history of Akan names.
 Accordion #2.
 <p>&nbsp;</p>
 This is the section with the form for user to enter their details.
-<img src="Assets/Images/Akan3.png" alt="Item #2">
+<img src="Assets/Images/Akan5.png" alt="Item #2">
 <p>&nbsp;</p>
 Accordion #3.
 <p>&nbsp;</p>
