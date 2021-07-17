@@ -25,6 +25,8 @@ var fetchData = function(){
 
     var day = (((CC/4) -2*CC-1) + ((5*YY/4)) + ((26*(MM+1)/10)) + DD )%7
 
+    var birthDay = parseInt(day);
+
     // alert("Your born day is: "+day.toFixed());
 
     // alert("Name: "+ name + " Date of Birth: "+DD+"/"+MM+"/"+CC+YY+" Day of Birth: "+day);
@@ -79,5 +81,37 @@ var fetchData = function(){
     var malesArray = ['Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi', 'Kwame'];
 
     var femaleArray = ['Akosua', 'Adwoa', 'Abena', 'Akua', 'Yaa', 'Afua', 'Ama'];
+
+    // Assigning names using if statement
+
+    // males
+
+    if( birthDay == 0 && male == true){
+        alert ("Hello "+name+", You were born on: "+daysArray[0]+", your Akan name is: "+malesArray[0]);
+    }
+
+    else if( birthDay == 1 && male == true){
+        alert ("Hello "+name+", You were born on: "+daysArray[1]+", your Akan name is: "+malesArray[1]);
+    }
+
+    else if( birthDay == 2 && male == true){
+        alert ("Hello "+name+", You were born on: "+daysArray[2]+", your Akan name is: "+malesArray[2]);
+    }
+
+    else if( birthDay == 3 && male == true){
+        alert ("Hello "+name+", You were born on: "+daysArray[3]+", your Akan name is: "+malesArray[3]);
+    }
+
+    else if( birthDay == 4 && male == true){
+        alert ("Hello "+name+", You were born on: "+daysArray[4]+", your Akan name is: "+malesArray[4]);
+    }
+
+    else if( birthDay == 5 && male == true){
+        alert ("Hello "+name+", You were born on: "+daysArray[5]+", your Akan name is: "+malesArray[5]);
+    }
+
+    else if( birthDay == 6 && male == true){
+        alert ("Hello "+name+", You were born on: "+daysArray[6]+", your Akan name is: "+malesArray[6]);
+    }
 
 }
