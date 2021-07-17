@@ -85,7 +85,7 @@
 
                     <!-- form -->
 
-                      <form action="" class="akansForm"> 
+                      <form action="" onsubmit="return fetchData()" class="akansForm"> 
 
                         <p> <span class="culture"><em>Enter your details below</em></span> </p>
 
@@ -107,12 +107,12 @@
                         <input type="radio" name="gender" value="male" id="maleGender" required > <strong>Male</strong>
                         <br>
 
-                        <input type="radio" name="gender" value="female" id="femaleGender" required> <strong>Female</strong>
+                        <input type="radio" name="gender" value="female" id="femaleGender" required > <strong>Female</strong>
                         <br>
                     
-                        <!-- <input type="submit" name="submit" value="Submit" required> -->
+                        <input type="submit" name="submit" value="Submit" required>
 
-                        <button onclick="fetchData()"><strong>Submit</strong></button>
+                        <!-- <button onclick="fetchData()"><strong>Submit</strong></button> -->
                     
                     </form>
 

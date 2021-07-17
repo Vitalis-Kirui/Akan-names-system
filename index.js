@@ -25,6 +25,8 @@ var fetchData = function(){
 
     var day = (((CC/4) -2*CC-1) + ((5*YY/4)) + ((26*(MM+1)/10)) + DD )%7
 
+    // alert("Your born day is: "+day.toFixed());
+
     // alert("Name: "+ name + " Date of Birth: "+DD+"/"+MM+"/"+CC+YY+" Day of Birth: "+day);
 
     // radio button controls validation
@@ -32,17 +34,22 @@ var fetchData = function(){
     var male = document.getElementById("maleGender").checked;
 
     var female = document.getElementById("femaleGender").checked;
-    
-    if(male==true){
-        alert("You are a male")
+
+    // form validation
+
+    // radio buttons
+    if(male == false && female == false){
+        alert("Please select a gender!")
     }
 
-    else if(female==true){
-        alert("You are a female")
+    // date of birth
+    if(DD < 1 || DD >31){
+        alert("Enter valid date. It should range from 1 to 31.")
     }
 
-    else{
-        alert("Please select your gender")
+    // month
+    if(MM < 1 || MM > 12){
+        alert("Enter a valid month. It should range from 1 to 12.")
     }
 
 }
