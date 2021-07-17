@@ -53,8 +53,8 @@ var fetchData = function(){
     }
 
     // months with 30 days
-    else if(MM == 4 || MM == 6 || MM == 9 || MM == 11 && DD > 30){
-        alert("Please Enter a validate. "+ MM + "th month has NO MORE THAN 30 days!")
+    else if(( MM == 4 || MM == 6 || MM == 9 || MM == 11) && DD > 30){
+        alert("Please Enter a valid date. "+MM+ "th month has NO MORE THAN 30 days!")
     }
 
     // Month of February
@@ -63,10 +63,12 @@ var fetchData = function(){
     }
 
     // year validation
-
-    else if(YY.length != 4){
+    else if(fullYear.length < 4 || fullYear.length > 4 ){
         alert("Please enter a valid Year! A year has 4 figures.")
     }
 
+    else if(CC >= 21){
+        alert("Jesus Christ!!! Enter a valid year! We are still in 20s.")
+    }
 
 }
