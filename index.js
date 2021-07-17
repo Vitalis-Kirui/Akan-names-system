@@ -62,4 +62,11 @@ var fetchData = function(){
         alert("Enter a valid date! February has no more than 29 days.")
     }
 
+    // year validation
+
+    else if(YY.length != 4){
+        alert("Please enter a valid Year! A year has 4 figures.")
+    }
+
+
 }
