@@ -42,36 +42,40 @@ var fetchData = function(){
     // radio buttons
     if(male == false && female == false){
         alert("Please select a gender!")
-    }
+    };
 
     // date of birth
-    else if(DD < 1 || DD >31){
-        alert("Enter valid date. It should range from 1 to 31.")
-    }
+    if(DD < 1 || DD >31){
+        alert("Enter valid date. \nIt should range from 1 to 31.")
+    };
 
     // month
-    else if(MM < 1 || MM > 12){
-        alert("Enter a valid month. It should range from 1 to 12.")
-    }
+    if(MM < 1 || MM > 12){
+        alert("Enter a valid month. \nIt should range from 1 to 12.")
+    };
 
     // months with 30 days
-    else if(( MM == 4 || MM == 6 || MM == 9 || MM == 11) && DD > 30){
-        alert("Please Enter a valid date. "+MM+ "th month has NO MORE THAN 30 days!")
-    }
+    if(( MM == 4 || MM == 6 || MM == 9 || MM == 11) && DD > 30){
+        alert("Please Enter a valid date. \n"+MM+ "th month has NO MORE THAN 30 days!")
+    };
 
     // Month of February
-    else if(MM == 2 && DD > 29){
-        alert("Enter a valid date! February has no more than 29 days.")
+    if((MM == 2 && DD > 28) && (fullYear % 4 != 0)){
+        alert("Enter a valid date! \nFebruary has no more than 28 days.")
+    };
+
+    if((MM == 2 && fullYear % 4 == 0) && (DD > 29)){
+        alert("Enter a valid date! \n"+fullYear+" is a leap year! It has 29 days.")
     }
 
     // year validation
-    else if(fullYear.length < 4 || fullYear.length > 4 ){
-        alert("Please enter a valid Year! A year has 4 figures.")
-    }
+    if(fullYear.length < 4 || fullYear.length > 4 ){
+        alert("Please enter a valid Year! \nA year has 4 figures.")
+    };
 
-    else if(CC >= 21){
-        alert("Jesus Christ!!! Enter a valid year! We are still in 20s.")
-    }
+    if(CC >= 21){
+        alert("Jesus Christ!!! Enter a valid year! \nWe are still in 20s.")
+    };
 
 
     // Arrays
@@ -88,60 +92,60 @@ var fetchData = function(){
 
     if( birthDay == 0 && male == true){
         alert ("Hello "+name+", You were born on: "+daysArray[0]+", your Akan name is: "+malesArray[0]);
-    }
+    };
 
-    else if( birthDay == 1 && male == true){
+    if( birthDay == 1 && male == true){
         alert ("Hello "+name+", You were born on: "+daysArray[1]+", your Akan name is: "+malesArray[1]);
-    }
+    };
 
-    else if( birthDay == 2 && male == true){
+    if( birthDay == 2 && male == true){
         alert ("Hello "+name+", You were born on: "+daysArray[2]+", your Akan name is: "+malesArray[2]);
-    }
+    };
 
-    else if( birthDay == 3 && male == true){
+    if( birthDay == 3 && male == true){
         alert ("Hello "+name+", You were born on: "+daysArray[3]+", your Akan name is: "+malesArray[3]);
-    }
+    };
 
-    else if( birthDay == 4 && male == true){
+    if( birthDay == 4 && male == true){
         alert ("Hello "+name+", You were born on: "+daysArray[4]+", your Akan name is: "+malesArray[4]);
-    }
+    };
 
-    else if( birthDay == 5 && male == true){
+    if( birthDay == 5 && male == true){
         alert ("Hello "+name+", You were born on: "+daysArray[5]+", your Akan name is: "+malesArray[5]);
-    }
+    };
 
-    else if( birthDay == 6 && male == true){
+    if( birthDay == 6 && male == true){
         alert ("Hello "+name+", You were born on: "+daysArray[6]+", your Akan name is: "+malesArray[6]);
-    }
+    };
 
     // Females
 
     if( birthDay == 0 && female == true){
         alert ("Hello "+name+", You were born on: "+daysArray[0]+", your Akan name is: "+femaleArray[0]);
-    }
+    };
 
-    else if( birthDay == 1 && female == true){
+    if( birthDay == 1 && female == true){
         alert ("Hello "+name+", You were born on: "+daysArray[1]+", your Akan name is: "+femaleArray[1]);
-    }
+    };
 
-    else if( birthDay == 2 && female == true){
+    if( birthDay == 2 && female == true){
         alert ("Hello "+name+", You were born on: "+daysArray[2]+", your Akan name is: "+femaleArray[2]);
-    }
+    };
 
-    else if( birthDay == 3 && female == true){
+    if( birthDay == 3 && female == true){
         alert ("Hello "+name+", You were born on: "+daysArray[3]+", your Akan name is: "+femaleArray[3]);
-    }
+    };
 
-    else if( birthDay == 4 && female == true){
+    if( birthDay == 4 && female == true){
         alert ("Hello "+name+", You were born on: "+daysArray[4]+", your Akan name is: "+femaleArray[4]);
-    }
+    };
 
-    else if( birthDay == 5 && female == true){
+    if( birthDay == 5 && female == true){
         alert ("Hello "+name+", You were born on: "+daysArray[5]+", your Akan name is: "+femaleArray[5]);
-    }
+    };
 
-    else if( birthDay == 6 && female == true){
+    if( birthDay == 6 && female == true){
         alert ("Hello "+name+", You were born on: "+daysArray[6]+", your Akan name is: "+femaleArray[6]);
-    }
+    };
 
-}
+};
