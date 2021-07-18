@@ -1,0 +1,81 @@
+html{
+    width: 100%;
+}
+body{
+    /* width: 100%; */
+    margin: 10px;
+    background-image: url(./Assets/Images/IMG_20210525_001253.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* styles for fonts and headings */
+
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    color: rgb(172, 1, 1);
+    background-color: rgb(212, 221, 221);
+}
+
+h3{
+    color: rgb(89, 0, 255);
+}
+
+h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 800;
+    color: blue;
+}
+
+.tablehead{
+    color: red;
+}
+
+.accordion-body{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+}
+
+/* styles for fonts and headings ends here */
+
+/* Table styles */
+
+.day{
+    color:rgb(182, 16, 174);
+    font-weight: 700;
+
+}
+
+/* end of table code */
+
+/* about akan names table */
+
+.culture{
+    color: rgb(163, 43, 6);
+}
+
+/* forms code */
+
+button{
+    border-radius: 20px;
+    color: yellow;
+    background-color: blue;
+}
+
+.two{
+    background-color: rgb(209, 219, 217);
+}
+
+    /* footer */
+
+footer{
+    background-color: rgb(184, 216, 190);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 26px;
+    border-radius: 2px;
+    text-align: center;
+    color: rgb(86, 87, 33);
+    font-weight: 550;
+}
